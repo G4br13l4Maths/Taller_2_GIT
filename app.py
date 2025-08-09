@@ -25,6 +25,7 @@ def load_data():
         # Lee el CSV
     df = pd.read_csv("datos_energia.csv")
 
+    # Columna de fecha en el archivo
     df['fecha'] = pd.to_datetime(df['time'])
     
     # Establece la fecha como índice
