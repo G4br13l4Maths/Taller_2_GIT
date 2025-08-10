@@ -19,6 +19,7 @@ server = app.server
 app.config.suppress_callback_exceptions = True
 
 # New comment 
+# New comment #2
 # Load data from csv
 def load_data():
     # To do: Completar la función 
